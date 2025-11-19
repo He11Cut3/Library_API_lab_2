@@ -1,0 +1,82 @@
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.book-title {
+  margin: 0;
+  color: #333;
+  font-size: 1.2em;
+  flex: 1;
+}
+
+.book-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit, .btn-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-edit:hover {
+  background-color: #e3f2fd;
+}
+
+.btn-delete:hover {
+  background-color: #ffebee;
+}
+
+.book-info {
+  margin-bottom: 12px;
+}
+
+.book-info p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.book-description {
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+  margin-bottom: 12px;
+}
+
+.book-description p {
+  margin: 0;
+  color: #555;
+  font-style: italic;
+}
+
+.book-footer {
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+  text-align: right;
+}
+
+.book-footer small {
+  color: #999;
+}
